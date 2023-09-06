@@ -9,7 +9,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "gen:api": "graphql-codegen",
-    "gen:api:watch": "graphql-codegen -w"
+    "gen:api:watch": "graphql-codegen -w",
+    "gen:pwa-assets": "pwa-assets-generator --preset minimal public/vite.svg"
   },
   "dependencies": {
     "@apollo/client": "^3.8.3",
@@ -24,6 +25,7 @@
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
+    "@vite-pwa/assets-generator": "^0.0.9",
     "@vitejs/plugin-react-swc": "^3.3.2",
     "autoprefixer": "^10.4.15",
     "eslint": "^8.45.0",
@@ -32,6 +34,7 @@
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-pwa": "^0.16.4"
   }
 }

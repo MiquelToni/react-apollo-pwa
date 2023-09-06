@@ -10,6 +10,7 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+dev-dist
 *.local
 
 # Editor directories and files
@@ -24,3 +25,9 @@ dist-ssr
 *.sw?
 
 __generated__
+pwa-64x64.png 
+apple-touch-icon-180x180.png 
+favicon.ico
+pwa-192x192.png
+maskable-icon-512x512.png
+pwa-512x512.png
